@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+        <title>漂亮的筛选样式基于Bootstrap</title>
+        <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+        <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/jquery-labelauty.css" />
+        <style>
+        ul {
+            list-style-type: none;
+        }
+        li {
+            display: inline-block;
+        }
+        li {
+            margin: 10px 0;
+        }
+        input.labelauty + label {
+            font: 12px"Microsoft Yahei";
+        }
+        </style>
+    </head>
+    
+    <body>
+                 <!-- #Main Starts -->
+        <div id="theme" class="container spacer ">
+            <div class="page-header">
+                 <h3>漂亮的筛选样式<br /><small>基于Bootstrap</small></h3> 
+            </div>
+            <div class="sidebar-content">
+                <!-- Inicio FORM -->
+                <div class="form">
+                    <form id="Filters">
+                        <!-- Inicio CHECKBOX -->
+                        <div class="group">
+                             <h4>按条件筛选模板<small>(默认全部显示)</small></h4> 
+                            <fieldset>
+                                <ul class="dowebok">
+                                    <li>
+                                        <input type="radio" name="optionsRadios" data-labelauty="WordPress" value=".WordPress" />
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="optionsRadios" data-labelauty="Html5" value=".Html5" />
+                                    </li>
+                                </ul>
+                            </fieldset>
+                            <fieldset>
+                                <ul class="dowebok">
+                                    <li>
+                                        <input type="radio" name="optionsRadio" data-labelauty="白" value=".白" />
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="optionsRadio" data-labelauty="蓝" value=".蓝" />
+                                    </li>
+                                </ul>
+                            </fieldset>
+                            <!-- Termina CHECKBOX -->
+                            <!-- Inicio CHECKBOX -->
+                            <fieldset>
+                                <ul class="dowebok">
+                                    <li>
+                                        <input type="checkbox" name="checkbox" data-labelauty="建筑" value=".建筑" />
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="checkbox" data-labelauty="政府" value=".政府" />
+                                    </li>
+                                </ul>
+                            </fieldset>
+                            <!-- Termina CHECKBOX -->
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="page-header"></div>
+            <!-- CONTENT Starts-->
+            <div id="Container" class="row">
+                <center>
+                    <!-- Starts-->
+                    <div class="col-sm-6 col-md-4 col-lg-3  mix 政府 白 WordPress">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Panel heading without title</div>
+                            <div class="panel-body">
+                                <img src="http://www.gbtags.com/gb/laitu/300x400&text=hello,gbtags/dd4814/ffffff" alt="1111" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                    <!--One Ends-->
+                </center>
+            </div>
+            <!-- CONTENT Ends-->
+        </div>
+        <!-- #Main Ends -->
+        <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+          <script>
+        $(function () {
+            $(':input').labelauty();
+        });
+        </script>
+        <script src="//cdn.bootcss.com/mixitup/2.1.11/jquery.mixitup.js"></script>
+        <script src="js/jquery-labelauty.js"></script>
+        <script src="js/index.js"></script>
+
+        <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+        <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+
+</html>
