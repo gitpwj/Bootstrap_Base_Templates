@@ -1,17 +1,17 @@
 var pages = [{
         "page_name": "首页",
-        "page_img_url": "b001/Home-min.png",
+        "page_img_url": "http://i0.wp.com/www.zhan5u.com/demo/b001/Home-min.png",
     }, 
     {
         "page_name": "关于我们",
-        "page_img_url": "b001/About-us-min.png",
+        "page_img_url": "http://i0.wp.com/www.zhan5u.com/demo/b001/About-us-min.png",
     }, 
     {
         "page_name": "展示页面",
-        "page_img_url": "b001/Dinner-min.png",
+        "page_img_url": "http://i0.wp.com/www.zhan5u.com/demo/b001/Dinner-min.png",
     }, 
     {
-        "page_name": "文章页",
-        "page_img_url": "b001/Article-min.png",
+        "page_name": "文章内页",
+        "page_img_url": "http://i0.wp.com/www.zhan5u.com/demo/b001/Article-min.png",
     }, 
 ]
