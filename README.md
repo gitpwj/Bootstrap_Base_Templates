@@ -8,3 +8,5 @@ Bootstrap常用简易模板
 
 ## [003_mixitup](https://gitpwj.github.io/Bootstrap_Base_Templates/003_mixitup/index.html)
 ![漂亮的筛选样式](https://github.com/gitpwj/Bootstrap_Base_Templates/raw/master/003_mixitup/003_mixitup.jpg)
+
+## [004_ShowWeb_Json_CDN](https://gitpwj.github.io/Bootstrap_Base_Templates/004_ShowWeb_Json_CDN/index.html)
